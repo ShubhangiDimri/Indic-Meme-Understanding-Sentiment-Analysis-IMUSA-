@@ -1,0 +1,77 @@
+# =============================================================
+#  IMUSA — .gitignore
+#  Dataset files are CONFIDENTIAL and must never be pushed.
+# =============================================================
+
+# ── Entire dataset folders ────────────────────────────────────
+Training_Dataset/
+Testing_Dataset/
+
+# ── Generated results (contain CSV subsets of the dataset) ───
+results/
+
+# ── Raw CSV / Excel / image formats anywhere in the tree ─────
+*.csv
+*.xlsx
+*.xls
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.bmp
+*.tif
+*.tiff
+
+# ── Python artefacts ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Model weights / checkpoints (large binaries) ─────────────
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+checkpoints/
+saved_models/
+runs/
+
+# ── OS junk ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Secrets / keys ───────────────────────────────────────────
+.env
+*.env
+secrets.json
