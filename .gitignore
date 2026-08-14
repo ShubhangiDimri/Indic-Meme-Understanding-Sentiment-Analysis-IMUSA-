@@ -9,6 +9,7 @@ Testing_Dataset/
 
 # ── Generated results (contain CSV subsets of the dataset) ───
 results/
+results/text_muril/
 
 # ── Raw CSV / Excel / image formats anywhere in the tree ─────
 *.csv
